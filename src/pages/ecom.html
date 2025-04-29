@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+  </head>
+  <body>
+    <header></header>
+    <main class="bg-bg-primary">
+      <section class="mt-3 ms-4">
+        <button
+          type="button"
+          onclick="showText()"
+          class="rounded-sm px-4 py-3 bg-sky-500 cursor-pointer text-white"
+        >
+          Show Text
+        </button>
+        <h3 id="text" class="text font-bold mt-4 text-sky-500 text-[25px]"></h3>
+        <h3 class="text text-pink-500 font-bold text-[25px]"></h3>
+      </section>
+      <!-- add list Item -->
+      <section class="mt-5 ml-3">
+        <div class="flex gap-4">
+          <button
+            onclick="addListItem()"
+            type="button"
+            class="rounded-md px-4 py-3 bg-sky-500 cursor-pointer text-black"
+          >
+            Add List Item
+          </button>
+          <button
+            type="button"
+            onclick="removeListItem()"
+            class="rounded-md px-4 py-3 bg-red-500 cursor-pointer text-white"
+          >
+            Remove List Item
+          </button>
+        </div>
+        <ol id="lists" class="mt-3 list-decimal list-inside">
+          <li>Default List</li>
+        </ol>
+      </section>
+      <section class="mt-6 flex flex-col items-center">
+        <img
+          id="image"
+          class="w-[300px] h-[300px] object-cover"
+          src="https://i.ytimg.com/vi/bfKRw_C_CUI/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AGYBIAC4AOKAgwIABABGGUgUyhFMA8=&rs=AOn4CLBOxxvxxChO2pfTR9xyB-i1SusaFg"
+          alt="cat give flower"
+        />
+        <h2 id="confessText" class="mt-4 text-2xl px-6 py3 mb-5 cursor-pointer">
+          Do you want to kiss me?
+        </h2>
+        <div class="flex mt-5 gap-5">
+          <button
+            id="noBtn"
+            type="button"
+            class="bg-red-600 text-2xl px-6 py-3 rounded-md mb-5 cursor-pointer"
+          >
+            No
+          </button>
+          <button
+            id="yesBtn"
+            type="button"
+            class="bg-green-500 text-2xl px-6 py-3 rounded-md mb-5 cursor-pointer"
+          >
+            yes
+          </button>
+        </div>
+      </section>
+      <section class="my-20 flex flex-col items-center text-white">
+        <form action="" class="flex gap-4 items-end">
+          <div class="flex gap-4 flex-col">
+            <label class="text-xl font-bold" for="username"
+              >Enter your name</label
+            >
+            <input
+              class="w-[500px] bg-bg-secondary focus:ring-1 active:bg-bg-secondary focus:ring-amber-50 roundes-sm border-gray-500"
+              type="text"
+              name="username"
+              id="username"
+            />
+          </div>
+          <input
+            class="bg-blue-500 text-lg rounded-md cursor-pointer px-3 h-[32px]"
+            type="submit"
+            id="submit"
+            value="submit"
+          />
+        </form>
+        <h3 class="mt-5 text-3xl font-bold text-center">
+          Wecome <span id="inputName"></span>
+        </h3>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./src/js/example.js"></script>
+  </body>
+</html>
