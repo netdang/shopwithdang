@@ -100,7 +100,7 @@ console.log("sliced text:", slicedText);
 //replace string
 let leranJs = "I Love JavaScript";
 let learnPy = leranJs.replace("JavaScript", "Pyton");
-console.log("learnPy");
+console.log("learnPy" ,learnPy);
 
 //split
 let fruits = "Apple , banana , orange";

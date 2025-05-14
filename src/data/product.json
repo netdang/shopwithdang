@@ -1,0 +1,60 @@
+{
+    "products" :[
+  {
+    "proName": "Miss Dior",
+    "price": 155,
+    "desc": "Miss Dior Eau de Parfum Roller-Pearl",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//945f7c2f0c7b7de871038f4b0f64ceda.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Dior ",
+    "price": 155,
+    "desc": "Miss Dior Parfum Pure Perfume (80ml)",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//e226fce88a2259e9da993d502e058144.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Diorl",
+    "price": 160,
+    "desc": "Miss Dior Blooming Bouquet Silky Body Mist",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//250fb34aec77a55c6851de2cfa48ab13.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Dior",
+    "price": 155,
+    "desc": "Miss Dior Eau de Parfum Roller-Pearl",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//945f7c2f0c7b7de871038f4b0f64ceda.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Dior ",
+    "price": 155,
+    "desc": "Miss Dior Parfum Pure Perfume (80ml)",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//e226fce88a2259e9da993d502e058144.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Diorl",
+    "price": 160,
+    "desc": "Miss Dior Blooming Bouquet Silky Body Mist",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//250fb34aec77a55c6851de2cfa48ab13.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Dior",
+    "price": 155,
+    "desc": "Miss Dior Eau de Parfum Roller-Pearl",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//945f7c2f0c7b7de871038f4b0f64ceda.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+  },
+  {
+    "proName": "Miss Dior ",
+    "price": 155,
+    "desc": "Miss Dior Parfum Pure Perfume (80ml)",
+    "image":
+      "https://hrd-live.cdn.scayle.cloud/images//e226fce88a2259e9da993d502e058144.jpg?brightness=1&width=960&height=1280&quality=75&bg=ffffff"
+        }
+    ]
+}

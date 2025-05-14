@@ -170,12 +170,28 @@
       </nav>
     </header>
     <main>
-      <section id="topSale pt-8 lg:px-[80px] md:px-[50px] sm:px-[30px] px-[15px]">
-        <h2 class="text-2xl font-bold text-center text-secondart mb-4">Top Sale:</h2>
-        <div id="cards" class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pt-5  gap-2 justify-center ">
-          
-        </div>
+      <section
+        id="topSale pt-8 lg:px-[80px] md:px-[50px] sm:px-[30px] px-[15px]"
+      >
+        <h2 class="text-2xl font-bold text-center text-secondart mb-4">
+          Top Sale:
+        </h2>
+        
+        <div
+          id="cards"
+          class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pt-5 gap-2 justify-center"
+        ></div>
       </section>
+      <section class="flex flex-col justify-center items-center">
+        <h2 class="text-2xl font-bold text-center text-secondart mb-4 mt-8">
+          Net IN <span id="total">(</span>)
+        </h2>
+        <div
+          id="new-in"
+          class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pt-5 gap-2 justify-center"
+        ></div>
+      </section>
+      <div id="names"></div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <script src="./src/js/ecom.js"></script>
