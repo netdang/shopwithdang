@@ -1,4 +1,5 @@
 "use strict";
+const API_URL = "https://api.escuelajs.co/api/v1/products/";
 
 let cardContenair = document.querySelector("#cards");
 
@@ -294,10 +295,11 @@ let total = document.querySelector("#total");
 
 async function fetchProductDisplay() {
   try {
-    const response = await fetch("https://dummyjson.com/products");
+    const response = await fetch(API_URL);
     const data = await response.json();
-    total.innerHTML = data.limit;
-    newIn.innerHTML = data.products.map(
+    // total.innerHTML = data.limit;
+    console.log(data);
+    newIn.innerHTML = data.map(
       (product) => `
        <div
             class="w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"

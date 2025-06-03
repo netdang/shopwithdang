@@ -12,7 +12,9 @@
   </head>
   <body>
     <header>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <nav
+        class="py-2 fixed w-full z-999 top-0 start-0 bg-white border-gray-200 dark:bg-gray-900"
+      >
         <div
           class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto"
         >
@@ -164,18 +166,30 @@
                   >Services</a
                 >
               </li>
+              <li>
+                <a
+                  href="./src/pages/dashboard.html"
+                  class="block py-2 px-3 text-puple-prim rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Dashboard</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <section class="flex flex-col justify-center items-center">
+    <section
+      class="flex flex-col justify-center items-center md:mx-[70px] mx-[20px]"
+    >
       <div class="container mx-auto px-4 py-8">
         <div
           id="loading"
           class="w-full h-screen flex justify-center items-center"
         >
-          <div role="status" class="w-full h-screen justify-center items-center flex">
+          <div
+            role="status"
+            class="w-full h-screen justify-center items-center flex"
+          >
             <svg
               aria-hidden="true"
               class="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
